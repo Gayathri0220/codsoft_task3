@@ -6,43 +6,30 @@ font -family" 'Poppins', sans-serif;
 box-sizing: border-box;
 } 
 body{
-background-image: url('calci.png');
+background-image: url('calci.avif');
+background-repeat: fixed;
+background-size: cover;
+object-fit: contain;
 background-repeat: no-repeat;
-
-background-size: 100% 100%; 
  }
-
-
-
-.design
-{
-font-family: "Ubuntu", sans-serif;
-alight-items: left;
-justify-content: center;
-padding-left: 250;
-
-}
 div h1{
 padding-left: 50px;
 padding-bottom: 50px;
 }
-
-
 .container{
 width: 80%;
 height: 100%;
 display: flex;
  align-items: center;
 justify-content: center;
-padding-right: 250px;
-padding-top: 25px;
-
+padding-left: 100px;
 
 }
 .calculator{
-background: #3a4452;
+background: #fff;
 padding: 20px;
 border-radius: 10px;
+ border-style: groove;
 }
 .calculator form input{
 
@@ -62,6 +49,9 @@ form .display{
 display: flex;
 justify-content: flex-end;
 margin: 20px 0;
+border-radius: 5px;
+border-style: groove;
+border-color: #060606;
 }
 form .display input{
   text-align: right;
